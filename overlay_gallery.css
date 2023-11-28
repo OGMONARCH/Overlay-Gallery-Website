@@ -1,0 +1,243 @@
+body{
+    background: black;
+    height: auto;
+    width: auto;
+}
+.header {
+    overflow: hidden;
+   background:linear-gradient( rgb(255, 253, 208), pink);
+    padding: 5px 10px;
+}
+.header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 25px; 
+    color: rgb(148, 147, 147);
+    text-align: center;
+    float:left;
+    padding: 20px;
+    cursor: pointer;
+}
+.header a:active{
+    color: skyblue;
+}
+.header-right{
+      float: right;
+}
+.parent{
+    display: grid;
+    height:122vh;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(5,12.5rem);
+    row-gap: 1.0rem;
+    column-gap: 1.5rem;
+}
+hr{
+    margin:auto;
+}
+hr:hover:before{
+   content:'';
+    color: white;
+    position: relative;
+    display: flex;
+    top:0;
+    left:0;
+    width:auto;
+    height: 5px;
+    transition: 2s;
+}
+hr:hover:after{
+    content:'';
+     color: white;
+     position:relative;
+     bottom:0;
+     left:0;
+     width:auto;
+    height: 30px;
+     transition-delay: 2s;
+ } 
+.uno{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 0;
+    color: white;
+    filter: blur(10px);
+    transition: 2s;
+    }
+.uno img{
+    width: 100%;
+    height: 100%;
+}
+.uno:hover{
+font-size: 20px;
+filter: blur(0px);
+
+}
+.txt1{
+    position: absolute;
+}
+.dos{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 0;
+    color: white;
+    grid-row-start:2;
+    grid-row-end: 3;
+    filter: blur(10px);
+    }
+.dos img{
+    width: 100%;
+    height: 100%;
+}
+.dos:hover{
+font-size: 20px;
+filter: blur(0px);
+transition: 2s;
+}
+.txt2{
+    position: absolute;
+}
+.tres{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 0;
+    color: white;
+    grid-row-start:1;
+    grid-row-end: 3;
+    grid-column-start:2;
+    grid-column-end: 3;
+    filter: blur(10px);
+    }
+.tres img{
+    width: 100%;
+    height: 100%;
+}
+.tres:hover{
+font-size: 20px;
+filter: blur(0px);
+transition: 2s;
+}
+.txt3{
+    position: absolute;
+}
+.museo{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 0;
+    color: white;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    filter: blur(10px);
+    }
+.museo img{
+    width: 100%;
+    height: 100%;
+}
+.museo:hover{
+font-size: 20px;
+filter: blur(0px);
+transition: 2s;
+}
+.txt4{
+    position: absolute;
+}
+.leche{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 0;
+    color: white;
+    filter: blur(10px);
+    }
+.leche img{
+    width: 100%;
+    height: 100%;
+}
+.leche:hover{
+font-size: 20px;
+filter: blur(0px);
+transition: 2s;
+}
+.txt5{
+    position: absolute;
+}
+.dinero{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 0;
+    color: white;
+    filter: blur(10px);
+    }
+.dinero img{
+    width: 100%;
+    height: 100%;
+}
+.dinero:hover{
+font-size: 20px;
+filter: blur(0px);
+transition: 2s;
+}
+.txt6{
+    position: absolute;
+}
+footer{
+    display:grid;
+    background: skyblue;
+    color: grey;
+    width: auto;
+    height: 13rem;
+    position: relative;
+    bottom:0;
+    left:0;
+}
+footer img{
+    margin-left: 45%;
+    position: relative;
+}
+.aqui{
+    display:grid;
+    background-color: bisque;
+}
+p{
+    margin-left:45%;
+    color:white;
+}
+span{
+    margin-left: 45%;
+    color:white;
+}
+h4{
+    margin-left: 47%;
+    background-color:aquamarine;
+}
+.agua{
+    align-items: center;
+    background-color: aquamarine;
+}
+center{
+    justify-content: center;
+}
